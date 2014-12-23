@@ -1,5 +1,5 @@
 emacs-package-export-import
-===========================
+---------------------------
 
 To save activated packages:
 

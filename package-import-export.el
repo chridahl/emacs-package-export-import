@@ -1,4 +1,3 @@
-
 (defun save-installed-packages ()
   "Creates a file named ~/.my-emacs-packages containing all activated emacs packages."
   (setq export-filename "~/.my-emacs-packages")  
@@ -10,7 +9,7 @@
   (message "Done writing export file."))
 
 (defun restore-packages ()
-  "Installs packages listed in from ~/.my-emacs-packages"
+  "Installs packages listed in ~/.my-emacs-packages."
   (setq export-filename "~/.my-emacs-packages")
   (if (file-exists-p export-filename)
       (mapcar
